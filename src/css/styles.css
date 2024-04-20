@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.id-do-conselho {
+    color: hsl(150, 100%, 66%);
+    font-weight: 700;
+    font-size: 16px;
+
+
+
+}
+
+.conselho {
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(193, 38%, 86%);
+
+}
+
+.bgn-dado {
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: -60px;
+    cursor: pointer;
+}
+
+.bgn-dado:hover {
+
+    transition: 0.4s;
+    transform: scale(1.1);
+    -webkit-box-shadow: 1px 0px 30px -1px rgba(112, 245, 165, 1);
+    -moz-box-shadow: 1px 0px 30px -1px rgba(112, 245, 165, 1);
+    box-shadow: 1px 0px 30px -1px rgba(112, 245, 165, 1);
+}
